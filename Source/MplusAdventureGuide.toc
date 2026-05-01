@@ -45,5 +45,4 @@ wardrobe-class-colours.lua
 inspect-ilvl.lua
 premade-finder-red-x.lua
 house-dropdown-faction-icon.lua
-april-fools.lua
 init.lua
