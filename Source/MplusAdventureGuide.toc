@@ -43,6 +43,5 @@ keystone-movable.lua
 acronyms.lua
 wardrobe-class-colours.lua
 inspect-ilvl.lua
-premade-finder-red-x.lua
 house-dropdown-faction-icon.lua
 init.lua

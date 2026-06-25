@@ -13,7 +13,6 @@ function addon:setupOptions()
             acronyms = false,
             wardrobeClassColours = true,
             inspectilvl = true,
-            premadeFinderRedX = true,
             houseDropdownFactionIcon = true,
         },
     }
@@ -98,14 +97,6 @@ function addon:setupOptions()
                 desc = "Adds the target's item level to the Inspect UI",
                 set = function(_, v) addon.db.profile.inspectilvl = v end,
                 get = function() return addon.db.profile.inspectilvl end,
-                width = "full",
-            },
-            premadeFinderRedX = {
-                type = "toggle",
-                name = "Enable Premade Finder Red X Module",
-                desc = "Hides that annoying Red X that appears over the Filter button but also clips over the Refresh button",
-                set = function(_, v) addon.db.profile.premadeFinderRedX = v end,
-                get = function() return addon.db.profile.premadeFinderRedX end,
                 width = "full",
             },
             houseDropdownFactionIcon = {
